@@ -1,0 +1,6 @@
+---,Card_row,R_Looptimes,type,cost,damage,maxloop,isvalid,uestimes,recoversun,isvoid,Card_Queue_ID
+1,"1","3","eco","2","0","2","True","-1","0","False","0"
+2,"2","0","attack","1","4","0","True","-1","0","False","0"
+3,"3","0","treat","0","0","0","True","-1","3","False","0"
+4,"4","0","break","0","0","0","True","1","0","False","0"
+5,"5","0","buff","2","0","0","True","1","0","False","0"
