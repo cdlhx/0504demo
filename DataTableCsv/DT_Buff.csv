@@ -1,0 +1,4 @@
+---,Buff_Row,Buff_Name,Image,Description,IsEnemy,Isdebuff,IsValid,Effect,Buff_Data,Duration,Termination,BuffType
+1001,1001,金花之力,,每抽1张牌会给予1点费用，可重复触发,FALSE,FALSE,TRUE,1,0,2,FALSE,OnturnEnd
+2001,2001,后一张牌效果数+1,,后一张牌效果数+1,FALSE,FALSE,TRUE,1,0,1,FALSE,During
+2011,2011,临时增效100%,,临时增效100%,FALSE,FALSE,TRUE,1,0,1,FALSE,During
