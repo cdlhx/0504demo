@@ -1,19 +1,92 @@
----,Card_Row,Card_Name,Type,Class,ClassEffect,Cost,Number,uestimes,isvalid,IsVoid,Effect,queueID
-10101,10101,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10101_Card_Name"", ""Dimai Dart Bullet"")",Attack,Attack_Base,0,3,3,-1,TRUE,FALSE,0,0
-10102,10102,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10102_Card_Name"", ""Fragmented fishing"")",Economic,Economic,0,0,1,-1,TRUE,FALSE,0,0
-10103,10103,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10103_Card_Name"", ""tour"")",Loop,Loop_Base,0,2,3,3,TRUE,FALSE,0,0
-10104,10104,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10104_Card_Name"", ""Dyed yellow flower"")",Buff,Buff_All_Friend,0,1,0,1,TRUE,FALSE,0,0
-10105,10105,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10105_Card_Name"", ""Go around"")",Draw,Draw_Base,5,1,0,-1,TRUE,FALSE,0,0
-10106,10106,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10106_Card_Name"", ""Purple Phantom"")",Attack,Attack_Base,0,3,3,-1,TRUE,FALSE,0,0
-10201,10201,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10201_Card_Name"", ""wildfire"")",Attack,Attack_Expand,2,3,6,-1,TRUE,FALSE,0,0
-10202,10202,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10202_Card_Name"", ""Energy storage spear"")",Attack,Attack_Base,0,3,6,1,TRUE,FALSE,0,0
-10203,10203,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10203_Card_Name"", ""Explosive bomb"")",Attack,Attack_Base,0,2,4,1,TRUE,FALSE,0,0
-10204,10204,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10204_Card_Name"", ""Self-cleaning"")",Break,Break_ToLoop,0,0,0,1,TRUE,FALSE,0,0
-10205,10205,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10205_Card_Name"", ""Loyalty! Sincerity!"")",Break,Break_ToDeff,0,0,0,1,TRUE,FALSE,0,0
-10206,10206,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10206_Card_Name"", ""mobilization"")",Mission,Mission_Tag,0,3,0,1,TRUE,FALSE,0,0
-10301,10301,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10301_Card_Name"", ""Tiger Fist"")",Attack,Attack_Base,0,2,1,-1,TRUE,FALSE,0,0
-10302,10302,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10302_Card_Name"", ""Medical Science"")",Heal,Heal_Base,0,3,10,-1,TRUE,FALSE,0,0
-10303,10303,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10303_Card_Name"", ""physical examination"")",Economic,Economic,0,0,6,1,TRUE,FALSE,0,0
-10304,10304,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10304_Card_Name"", ""Aoshu"")",Mission,Mission_RemoveBuff,0,2,3,1,TRUE,FALSE,0,0
-10305,10305,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10305_Card_Name"", ""Trisolaransomy"")",Buff,Buff_All_Friend,0,4,0,-1,TRUE,FALSE,0,0
-10306,10306,"NSLOCTEXT(""DT_Card [575E6AB00ED0C36ECBF12C36CF4BAF12]"", ""10306_Card_Name"", ""reinforce"")",Draw,Draw_Dead,-1,5,0,-1,TRUE,FALSE,0,0
+---,Card_Row,Card_Name,Type,Class,ClassEffect,Color,Cost,Number,uestimes,isvalid,IsVoid,Effect,queueID
+10101,10101,Dimai?Dart?Bullet,attack,Attack_Base,,Blue,3,5,-1,TRUE,FALSE,0,0
+10102,10102,Fragmented?Fishing,economic,Economic,,Blue,0,1,-1,TRUE,FALSE,0,0
+10103,10103,tour,loop,Loop_Base,,Blue,1,3,3,TRUE,FALSE,0,0
+10104,10104,Dyeing?yellow?flowers,buff,Buff_All_Friend,,Blue,1,None,1,TRUE,FALSE,0,0
+10105,10105,Go?around,draw,Draw_Base,,Blue,1,None,-1,TRUE,FALSE,0,0
+10106,10106,Purple?Phantom,attack,Attack_Base,,Blue,3,5,-1,TRUE,FALSE,0,0
+10107,10107,Layered?arrows,attack,Attack_Expand,,Blue,3,5,-1,TRUE,FALSE,0,0
+10108,10108,When?waking?up?from?a?dream,mission,Attack_Base,,Blue,1,1,1,TRUE,FALSE,0,0
+10109,10109,Emperor's?Steps,buff,Attack_Base,,Blue,1,None,1,TRUE,FALSE,0,0
+10110,10110,Puxining,mission,Break_ToLoop,,Blue,1,None,1,TRUE,FALSE,0,0
+10161,10161,nightmare,Attack,Break_ToDeff,,Violet,0,5,-1,TRUE,FALSE,0,0
+10201,10201,Fire?Feather,attack,,,Red,3,6,-1,TRUE,FALSE,0,0
+10202,10202,Energy?storage?long?gun,attack,,,Red,3,6,1,TRUE,FALSE,0,0
+10203,10203,Detonation?bomb,attack,,,Red,2,4,1,TRUE,FALSE,0,0
+10204,10204,Self-cleaning,break,,,Red,0,None,1,TRUE,FALSE,0,0
+10205,10205,Never?forgive,break,,,Red,0,None,1,TRUE,FALSE,0,0
+10206,10206,mobilization,mission,,,Red,3,None,1,TRUE,FALSE,0,0
+10207,10207,Confrontation,mission,,,Red,2,None,1,TRUE,FALSE,0,0
+10208,10208,The?Fire?of?Revolution,buff,,,Red,6,None,1,TRUE,FALSE,0,0
+10209,10209,suppress,mission,,,Red,3,None,1,TRUE,FALSE,0,0
+10210,10210,Individual?Rocket,attack,,,Red,3,12,1,TRUE,FALSE,0,0
+10301,10301,Iron?Fist,attack,,,Green,2,1,-1,TRUE,FALSE,0,0
+10302,10302,Internal?surgery,heal,,,Green,2,10,-1,TRUE,FALSE,0,0
+10303,10303,physical?examination,economic,,,Green,0,6,1,TRUE,FALSE,0,0
+10304,10304,Space?Security?Declaration,buff,,,Green,4,None,1,TRUE,FALSE,0,0
+10305,10305,Trisolaran?lifestyle,buff,,,Green,4,None,1,TRUE,FALSE,0,0
+10306,10306,reinforce,draw,,,Green,4,None,-1,TRUE,FALSE,0,0
+10307,10307,Repeated?surgeries,attack,,,Green,2,3,-1,TRUE,FALSE,0,0
+10308,10308,Tranquilizer,mission,,,Green,2,None,-1,TRUE,FALSE,0,0
+10309,10309,anaesthesia,attack,,,Green,2,4,1,TRUE,FALSE,0,0
+10310,10310,Emergency?defibrillation,mission,,,Green,8,None,-1,TRUE,FALSE,0,0
+10401,10401,Beautiful?New?World,loop,,,Yellow,0,10,10,TRUE,FALSE,0,0
+10402,10402,Million?pounds,buff,,,Yellow,3,None,-1,TRUE,FALSE,0,0
+10403,10403,financial?crisis?,buff,,,Yellow,8,None,1,TRUE,FALSE,0,0
+10404,10404,executive?director,loop,,,Yellow,1,4,4,TRUE,FALSE,0,0
+10405,10405,Air?raid,attack,,,Yellow,13,10,-1,TRUE,FALSE,0,0
+10406,10406,cold?storage,mission,,,Yellow,6,None,1,TRUE,FALSE,0,0
+10407,10407,blockade,,,,Yellow,6,None,1,TRUE,FALSE,0,0
+10408,10408,Drive?Star?Gate?Key,mission,,,Yellow,10,None,1,TRUE,FALSE,0,0
+10409,10409,Southbound?Disruption?Express,mission,,,Yellow,8,None,1,TRUE,FALSE,0,0
+10410,10410,international?waters,economic,,,Yellow,16,21,-1,TRUE,FALSE,0,0
+10461,10461,Derivative Group,Mission,,,Yellow,1,None,-1,TRUE,FALSE,0,0
+10462,10462,The Privateer ,attack,,,Yellow,2,2,1,TRUE,FALSE,0,0
+10463,10463,Captain class ship,attack,,,Yellow,5,10,1,TRUE,FALSE,0,0
+10464,10464,Nova Spark,attack,,,Yellow,37,3000,1,TRUE,FALSE,0,0
+10501,10501,public?relations,mission,,,Blue,3,None,1,TRUE,FALSE,0,0
+10502,10502,take?over,mission,,,Blue,3,None,1,TRUE,FALSE,0,0
+10503,10503,mythology,mission,,,Blue,3,None,1,TRUE,FALSE,0,0
+10504,10504,Broadcasting?Association,mission,,,Blue,3,None,1,TRUE,FALSE,0,0
+10505,10505,bulletin,buff,,,Blue,4,None,1,TRUE,FALSE,0,0
+10506,10506,Large?flash,mission,,,Blue,4,None,1,TRUE,FALSE,0,0
+10507,10507,High?tower,buff,,,Blue,4,None,1,TRUE,FALSE,0,0
+10508,10508,Call,mission,,,Blue,3,None,1,TRUE,FALSE,0,0
+10509,10509,journalism,mission,,,Blue,3,None,1,TRUE,FALSE,0,0
+10510,10510,Deep?State,buff,,,Blue,4,None,1,TRUE,FALSE,0,0
+10561,10561,Communication?manuscript,buff,,,Blue,1,None,1,TRUE,FALSE,0,0
+10562,10562,Annihilation,attack,,,Black,1,13,-1,TRUE,FALSE,0,0
+10563,10563,Sing?praises,attack,,,Blue,1,4,1,TRUE,FALSE,0,0
+10564,10564,confusion,buff,,,Blue,1,None,1,TRUE,FALSE,0,0
+10565,10565,Smearing,attack,,,Blue,1,15,1,TRUE,FALSE,0,0
+10601,10601,Typhon ,attack,,,Red,1,1,-1,TRUE,FALSE,0,0
+10602,10602,Faust,buff,,,Red,1,None,1,TRUE,FALSE,0,0
+10603,10603,Loss of pressure,economic,,,Red,1,None,-1,TRUE,FALSE,0,0
+10604,10604,vortex,economic,,,Red,0,7,1,TRUE,FALSE,0,0
+10605,10605,ethic,discard,,,Red,1,None,-1,TRUE,FALSE,0,0
+10606,10606,The Sea Without Light,buff,,,Red,1,None,1,TRUE,FALSE,0,0
+10607,10607,consonant,attack,,,Red,1,3,-1,TRUE,FALSE,0,0
+10608,10608,wheelchair,attack,,,Red,0,16,1,TRUE,FALSE,0,0
+10609,10609,chaos,mission,,,Red,0,None,1,TRUE,FALSE,0,0
+10610,10610,Gaia,buff,,,Red,1,None,1,TRUE,FALSE,0,0
+10701,10701,Mending knife attack,attack,,,Green,0,3,-1,TRUE,FALSE,0,0
+10702,10702,Emergency rescue ,heal,,,Green,3,6,-1,TRUE,FALSE,0,0
+10703,10703,Law enforcement agencies,loop,,,Green,0,2,2,TRUE,FALSE,0,0
+10704,10704,Official Network,mission,,,Green,1,None,1,TRUE,FALSE,0,0
+10705,10705,The Wings of the River Styx,attack,,,Green,3,12,-1,TRUE,FALSE,0,0
+10706,10706,secret police,mission,,,Green,1,None,1,TRUE,FALSE,0,0
+10707,10707,Unrestricted fighting,buff,,,Green,1,None,1,TRUE,FALSE,0,0
+10708,10708,annihilate the enemy,mission,,,Green,6,None,1,TRUE,FALSE,0,0
+10709,10709,one four five three,mission,,,Green,4,10,1,TRUE,FALSE,0,0
+10710,10710,Our Sea,mission,,,Green,1,None,1,TRUE,FALSE,0,0
+10801,10801,corruption,attack,,,Yellow,2,3,-1,TRUE,FALSE,0,0
+10802,10802,smuggle,mission,,,Yellow,8,None,1,TRUE,FALSE,0,0
+10803,10803,Protective?Umbrella,loop,,,Yellow,0,2,2,TRUE,FALSE,0,0
+10804,10804,Self?employment?path,mission,,,Yellow,1,None,-1,TRUE,FALSE,0,0
+10805,10805,Golden?Rain,attack,,,Yellow,X,3X,1,TRUE,FALSE,0,0
+10806,10806,betray,mission,,,Yellow,2,None,1,TRUE,FALSE,0,0
+10807,10807,Alliance?Gang,mission,,,Yellow,1,None,-1,TRUE,FALSE,0,0
+10808,10808,Xiao?Dou?Ding,mission,,,Yellow,2,None,-1,TRUE,FALSE,0,0
+10809,10809,opportunity,buff,,,Yellow,3,None,-1,TRUE,FALSE,0,0
+10810,10810,torment,buff,,,Yellow,2,None,1,TRUE,FALSE,0,0
+10861,10861,The?Feather?of?Direct?Connection,attack,,,Yellow,1,4,1,TRUE,FALSE,0,0
