@@ -1,6 +1,6 @@
 noitaism/Intermediate/
 noitaism/DerivedDataCache/
-noitaism/Saved/
+noitaism/Saved/*
 noitaism/Platforms/
 noitaism/Binaries/
 noitaism/.vs/
